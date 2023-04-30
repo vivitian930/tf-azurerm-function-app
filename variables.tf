@@ -23,7 +23,7 @@ variable "location" {
 variable "existing_app_service_plan_id" {
   description = "Application Service Plan ID."
   type        = string
-  default     = null
+  default     = ""
 }
 
 variable "app_service_plan_sku" {
